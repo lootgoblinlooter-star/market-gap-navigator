@@ -228,7 +228,7 @@ export function buildOpportunity(fantasyId: string, gameplayId: string): Opportu
     verdict,
     rationale,
     competitors,
-    concepts: (CONCEPT_VERBS[gameplay.id] ?? CONCEPT_VERBS.simulator!)(fantasy.name),
+    concepts: (CONCEPT_VERBS[gameplay.id] ?? CONCEPT_VERBS["simulator"]!)(fantasy.name),
   };
 }
 
