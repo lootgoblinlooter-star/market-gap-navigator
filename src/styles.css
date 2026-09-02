@@ -19,6 +19,17 @@
  */
 
 @theme inline {
+  --font-display: var(--font-display-family);
+  --font-mono: var(--font-mono-family);
+  --color-ink: var(--ink);
+  --color-ink2: var(--ink2);
+  --color-panel: var(--panel);
+  --color-panel2: var(--panel2);
+  --color-line: var(--line);
+  --color-amber: var(--amber);
+  --color-ember: var(--ember);
+  --color-sand: var(--sand);
+  --color-muted-warm: var(--muted-warm);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
